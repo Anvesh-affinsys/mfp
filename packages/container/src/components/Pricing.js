@@ -29,8 +29,8 @@ function Copyright() {
 const useStyles = makeStyles((theme) => ({
   '@global': {
     ul: {
-      margin: 0,
-      padding: 0,
+      margin: 24,
+      padding: 2,
       listStyle: 'none',
     },
   },
@@ -59,7 +59,7 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: theme.spacing(2),
   },
   footer: {
-    borderTop: `1px solid ${theme.palette.divider}`,
+    borderTop: `2px solid ${theme.palette.divider}`,
     marginTop: theme.spacing(8),
     paddingTop: theme.spacing(3),
     paddingBottom: theme.spacing(3),
